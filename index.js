@@ -16,7 +16,7 @@ function nowServing(line) {
 }
 }
 
-<<<<<<< HEAD
+
 
 function currentLine(line) {
   if(line.length <= 0) {
@@ -29,7 +29,7 @@ else {
       array.push(`${i+1}. ${line[i]}`)
       }
     return `The line is currently: ${ array.join(", ") }`
-=======
+
 //
 // function currentLine(line) {
 //   if(line.length > 0) {
